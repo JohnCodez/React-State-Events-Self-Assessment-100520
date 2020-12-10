@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
+import Statement from './Components/Statement'
+
+
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return (
+    <Statement />
+  )
 }
 
 export default App;
